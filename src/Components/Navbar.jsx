@@ -36,20 +36,26 @@ function Navbar() {
 						</li>
 					</ul>
 				</div>
-				<a className="btn btn-ghost text-xl" href="/">
+				<a className="btn btn-ghost text-2xl" href="/">
 					Marginalia
 				</a>
 			</div>
 			<div className="navbar-center hidden lg:flex">
 				<ul className="menu menu-horizontal px-1">
 					<li>
-						<a href="/">Books</a>
+						<a href="/" className="text-xl mt-0.5">
+							Books
+						</a>
 					</li>
 					<li>
-						<a href="/">Genre</a>
+						<a href="/" className="text-xl mt-0.5">
+							Genre
+						</a>
 					</li>
 					<li>
-						<a href="/">Random</a>
+						<a href="/" className="text-xl mt-0.5">
+							Random
+						</a>
 					</li>
 				</ul>
 			</div>
