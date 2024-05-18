@@ -1,7 +1,9 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
-import Homepage from "./Components/Homepage";
 import Home from "./Components/Home";
+import ProductCard from "./Components/ProductCard";
+import Products from "./Components/Products";
+import Footer from "./Components/Footer";
 
 import "./index.css";
 import Login from "./Components/Login";
@@ -10,6 +12,8 @@ function App() {
 			<>	
 				<Navbar />
 				<Home />
+				<Products/>
+				<Footer/>
 			</>
 		);
 }
