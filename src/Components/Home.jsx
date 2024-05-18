@@ -18,11 +18,18 @@ function Home() {
 									entertain, and educate. Join our community of book lovers
 									today!{" "}
 								</h2>
-								<div className="w-full flex justify-center md:block">
-									<button className="hover:opacity-90 bg-indigo-700 py-3 px-10 lg:py-3 lg:mt-3 lg:px-10 rounded-full text-white text-sm md:text-lg f-f-p">
-										Sign Up
-									</button>
-								</div>
+								<a
+									className="group relative inline-block text-sm font-medium text-black focus:outline-none focus:ring active:text-indigo-500"
+									href="#"
+								>
+									{/* this span is for the underline effect */}
+									<span className="absolute inset-0 translate-x-0.5 translate-y-0.5 bg-black transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
+
+									<span className="relative block border border-current bg-slate-200 px-8 py-3">
+										{" "}
+										Download{" "}
+									</span>
+								</a>
 							</div>
 							<div className="w-10/12 sm:w-full md:h-auto m-auto flex items-center overflow-hidden lg:w-1/2">
 								<img
