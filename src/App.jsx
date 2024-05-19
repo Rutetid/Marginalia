@@ -5,9 +5,11 @@ import ProductCard from "./Components/ProductCard";
 import Products from "./Components/Products";
 import Footer from "./Components/Footer";
 import Books from "./Components/Books";
-
 import "./index.css";
 import Login from "./Components/Login";
+import Chatbot from "./Components/Chatbot";
+
+
 function App() {
   return (
 			<>	
