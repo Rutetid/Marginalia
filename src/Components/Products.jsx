@@ -2,7 +2,7 @@ import ProductCard from "./ProductCard";
 
 function Products() {
 	return (
-		<div className="py-20 bg-colors-background text-colors-text">
+		<div className="py-20 bg-background text-text">
 			<div className="grid grid-cols-1 md:grid-cols-4 md:px-2 ">
 				<div className="py-5 xl:ml-14 md:px-6 md:py-6">
 					<ProductCard />

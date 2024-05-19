@@ -8,14 +8,14 @@ import Books from "./Components/Books";
 import "./index.css";
 import Login from "./Components/Login";
 import Chatbot from "./Components/Chatbot";
+import SignUp from "./Components/SignUp";
 
 
 function App() {
   return (
 			<>	
 				<Navbar />
-				<Home />
-				<Products/>
+				<Login/>
 				<Footer/>
 			</>
 		);

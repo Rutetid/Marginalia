@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
 	return (
-		<div className="navbar bg-base-100 bg-colors-background text-colors-text">
+		<div className="navbar bg-background text-text">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -36,7 +36,7 @@ function Navbar() {
 						</li>
 					</ul>
 				</div>
-				<a className="btn btn-ghost text-2xl" href="/">
+				<a className="btn btn-ghost text-2xl lg:ml-16 lg:pl-5 lg:text-3xl font-sans xl:mt-2" href="/">
 					Marginalia
 				</a>
 			</div>

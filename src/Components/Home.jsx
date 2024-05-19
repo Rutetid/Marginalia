@@ -5,11 +5,11 @@ function Home() {
 
 	return (
 		<>
-			<div className="lg:px-6 xl:px-0 xl:pb-24  bg-colors-background text-colors-text">
+			<div className="lg:px-6 xl:px-0 xl:pb-24  bg-background text-colors-text">
 				<div className="container mx-auto relative z-20">
 					<div className="mx-auto container relative z-0 px-4 xl:px-0">
 						<div className="flex flex-col-reverse md:flex-row xl:py-5">
-							<div className="md:w-3/5 md:pt-24 pb-10  lg:py-32 xl:py-16 xl:ml-16 xl:pl-8">
+							<div className="md:w-3/5 md:pt-24 pb-10  lg:py-32 xl:py-16 xl:ml-16 xl:pl-7">
 								<h1 className="text-3xl lg:text-6xl xl:text-7xl font-black text-gray-900 text-center md:text-left tracking-tighter f-f-i  leading-tight text-heading-color">
 									Discover Your Next Favorite Book
 								</h1>

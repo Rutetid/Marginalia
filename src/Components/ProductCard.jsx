@@ -1,6 +1,6 @@
 function ProductCard() {
 	return (
-		<div className="card w-80 bg-colors-secondaryshade text-colors-text shadow-xl rounded-none">
+		<div className="card w-80 bg-sec2 text-text shadow-xl rounded-round">
 			<figure className="px-10 pt-10">
 				<img
 					src="https://m.media-amazon.com/images/I/81q77Q39nEL._AC_UF1000,1000_QL80_.jpg"
@@ -12,7 +12,7 @@ function ProductCard() {
 				<h2 className="card-title">Harry Potter and the Philosophers Stone</h2>
 				<p className="pb-1 text-2xl "> $19.99</p>
 				<div className="card-actions">
-					<button className="btn  bg-color-accent rounded-none">Buy Now</button>
+					<button className="btn btn-outline">Buy Now</button>
 				</div>
 			</div>
 		</div>
