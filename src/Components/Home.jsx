@@ -5,10 +5,10 @@ function Home() {
 
 	return (
 		<>
-			<div className="lg:px-6 xl:px-0">
+			<div className="lg:px-6 xl:px-0 xl:pb-24  bg-colors-background text-colors-text">
 				<div className="container mx-auto relative z-20">
 					<div className="mx-auto container relative z-0 px-4 xl:px-0">
-						<div className="flex flex-col-reverse md:flex-row xl:mt-5">
+						<div className="flex flex-col-reverse md:flex-row xl:py-5">
 							<div className="md:w-3/5 md:pt-24 pb-10  lg:py-32 xl:py-16 xl:ml-16 xl:pl-8">
 								<h1 className="text-3xl lg:text-6xl xl:text-7xl font-black text-gray-900 text-center md:text-left tracking-tighter f-f-i  leading-tight text-heading-color">
 									Discover Your Next Favorite Book
@@ -18,18 +18,14 @@ function Home() {
 									entertain, and educate. Join our community of book lovers
 									today!{" "}
 								</h2>
-								<a
-									className="group relative inline-block text-sm font-medium text-black focus:outline-none focus:ring active:text-indigo-500"
-									href="#"
-								>
-									{/* this span is for the underline effect */}
-									<span className="absolute inset-0 translate-x-0.5 translate-y-0.5 bg-black transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
 
-									<span className="relative block border border-current bg-slate-200 px-8 py-3">
-										{" "}
-										Download{" "}
-									</span>
-								</a>
+								<button
+									type="button"
+									className="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+								>
+									Button
+								</button>
+								
 							</div>
 							<div className="w-10/12 sm:w-full md:h-auto m-auto flex items-center overflow-hidden lg:w-1/2">
 								<img
